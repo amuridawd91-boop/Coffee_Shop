@@ -10,8 +10,8 @@ body {
     position: absolute;
     top: -40px;
     left: 10px;
-    background-color: black;
-    color: white;
+    background-color: rgb(95, 26, 26);
+    color: rgb(162, 162, 162);
     padding: 10px;
     text-decoration: none;
    
@@ -22,18 +22,18 @@ body {
     
 }
 header {
-    header {
-    background-image: url("../images/header.jpg");
+    
+    background-image: url("images/header.jpg");
     background-size: cover;
-    background-position: center;
-
+    background-position: center 38%;
+    
     padding: 60px;
     text-align: center;
 }
-}
+
 
 header h1 {
-    color: white;
+    color: rgba(182, 106, 8, 0.957);
     font-size: 50px;
 }
 h2, p{
@@ -54,6 +54,8 @@ nav a {
     background-color: #8d6e63;
     padding: 10px 15px;
     border-radius: 10px;
+    border-color: #060505;
+    border-style: solid;
     transition: 0.3s;
 }
 
@@ -106,22 +108,22 @@ footer {
     padding: 15px;
 }
 
-.gallery-grid {
+.gallery-grid div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 25px;
 }
 
-.gallery-grid img {
+.gallery-grid div img {
     width: 100%;
     transition: 0.3s;
 }
 
-.gallery-grid img:hover {
+.gallery-grid div img:hover {
     transform: scale(1.05);
 }
 
 
-.gallery-grid img:nth-child(even) {
+.gallery-grid div img:nth-child(even) {
     border-radius: 50%;
 }
