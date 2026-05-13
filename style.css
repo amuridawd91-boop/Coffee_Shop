@@ -19,7 +19,7 @@ body {
 
 .skip:focus {
     top: 10px;
-    border: dotted red; 
+    
 }
 header {
     background-color: #6f4e37;
@@ -29,6 +29,9 @@ header {
 
 header h1 {
     color: white;
+}
+h2, p{
+    text-align: center;
 }
 
 nav ul {
@@ -77,6 +80,11 @@ main {
     border-radius: 15px;
     width: 250px;
     text-align: center;
+}
+.card img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
 }
 
 img {
