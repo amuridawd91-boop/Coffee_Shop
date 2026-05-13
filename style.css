@@ -105,3 +105,23 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+
+.gallery-grid img:nth-child(even) {
+    border-radius: 50%;
+}
